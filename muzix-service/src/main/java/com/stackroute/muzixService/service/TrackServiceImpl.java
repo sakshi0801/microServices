@@ -36,6 +36,7 @@ public class TrackServiceImpl implements TrackService {
     @Value("${spring.trackAlreadyExist}")
     private String trackAlreadyExist;
 
+/*
     public void simulateDelay(){
         try {
             Thread.sleep(3000);
@@ -43,6 +44,7 @@ public class TrackServiceImpl implements TrackService {
             e.printStackTrace();
         }
     }
+*/
 
     //This method is used to save a track
     @CacheEvict(allEntries = true)
@@ -63,7 +65,7 @@ public class TrackServiceImpl implements TrackService {
     @Cacheable
     @Override
     public List<Track> getAllTracks() throws TrackNotFoundException {
-        simulateDelay();
+//        simulateDelay();
         List<Track> list=(List<Track>)trackRepository.findAll();
         if(list.isEmpty()){
             throw new TrackNotFoundException(trackNotFound);
