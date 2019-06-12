@@ -1,3 +1,7 @@
+/**
+ * This class is a custom defined exception class
+ */
+
 package com.stackroute.userservice.exception;
 
 public class UserAlreadyExistException extends  Exception {

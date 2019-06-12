@@ -1,6 +1,7 @@
 /**
  * This class is used to test methods of TrackService
- */
+ *//*
+
 
 package com.stackroute.muzixService.service;
 
@@ -69,8 +70,8 @@ public class TrackServiceTest {
         System.out.println("savedUser" + savedTrack);
         Assert.assertEquals(track, savedTrack);
 
-        /*doThrow(new TrackAlreadyExistsException("track already exists")).when(trackRepository).findById(eq(1));
-        trackService.saveTrack(track);*/
+        doThrow(new TrackAlreadyExistsException("track already exists")).when(trackRepository).findById(eq(1));
+        trackService.saveTrack(track);
     }
 
     @Test
@@ -133,3 +134,4 @@ public class TrackServiceTest {
         Assert.assertNotEquals(updateTrack,actualTrack);
     }
 }
+*/

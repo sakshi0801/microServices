@@ -1,3 +1,7 @@
+/**
+ * This class act as gateway for all micro services
+ */
+
 package com.stackroute.springgatewayapi;
 
 import com.stackroute.springgatewayapi.filters.ErrorFilter;

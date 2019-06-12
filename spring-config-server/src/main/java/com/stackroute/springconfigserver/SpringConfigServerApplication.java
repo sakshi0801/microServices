@@ -1,3 +1,8 @@
+/**
+ * created by sakshi
+ * This class is used to fetch properties from centralized config repository
+ */
+
 package com.stackroute.springconfigserver;
 
 import org.springframework.boot.SpringApplication;

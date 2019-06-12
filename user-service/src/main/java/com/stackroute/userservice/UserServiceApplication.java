@@ -1,3 +1,7 @@
+/**
+ * This is main class for user service application
+ */
+
 package com.stackroute.userservice;
 
 import org.springframework.boot.SpringApplication;

@@ -1,3 +1,7 @@
+/**
+ * This is main class for muzix service application
+ */
+
 package com.stackroute.muzixService;
 
 import org.springframework.boot.SpringApplication;

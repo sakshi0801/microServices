@@ -1,3 +1,7 @@
+/**
+ * This interface act as repository for user service and extends JpaRepository interface.
+ */
+
 package com.stackroute.userservice.repository;
 
 import com.stackroute.userservice.domain.User;
